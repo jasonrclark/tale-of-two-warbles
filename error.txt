@@ -1,0 +1,24 @@
+C:\Users\IEUser\Desktop> java -jar .\9.1.8.0.jar
+C:/Users/IEUser/.gem/jruby/2.3.0
+uri:classloader:/META-INF/jruby.home/lib/ruby/gems/shared
+uri:classloader:
+Included ActiveSupport since #blank? worked
+C:\Users\IEUser\Desktop> cd
+C:\Users\IEUser\Desktop> java -jar .\9.1.10.0.jar
+C:/Users/IEUser/.gem/jruby/2.3.0
+uri:classloader:/META-INF/jruby.home/lib/ruby/gems/shared
+uri:classloader:
+LoadError: no such file to load -- active_support
+  require at org/jruby/RubyKernel.java:961
+  require at uri:classloader:/META-INF/jruby.home/lib/ruby/stdlib/rubygems/core_
+ext/kernel_require.rb:130
+   <main> at uri:classloader:/9.1.10.0/app.rb:3
+     load at org/jruby/RubyKernel.java:979
+   <main> at uri:classloader:/META-INF/main.rb:1
+  require at org/jruby/RubyKernel.java:961
+   (root) at uri:classloader:/META-INF/main.rb:1
+   <main> at uri:classloader:/META-INF/jruby.home/lib/ruby/stdlib/rubygems/core_
+ext/kernel_require.rb:1
+ERROR: org.jruby.embed.EvalFailedException: (LoadError) no such file to load --
+active_support
+C:\Users\IEUser\Desktop>
